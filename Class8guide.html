@@ -248,6 +248,7 @@
             body.style.overflow = 'hidden';
             blurness.style.filter = 'blur(4px)';
             blurness.style.pointerEvents = 'none';
+            blurness.style.userSelect = 'none';
 
 
         }
@@ -256,6 +257,7 @@
             body.style.overflow = 'auto';
             blurness.style.filter = 'none';
             blurness.style.pointerEvents = 'auto';
+            blurness.style.userSelect = 'auto';
         }
 
         download1.addEventListener('click', () => {
